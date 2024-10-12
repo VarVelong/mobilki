@@ -1,4 +1,4 @@
-# PROJEcT WSBuła
+# PROJECT WSBuła
 
 ## Created by Jaro,Domini,Okti,Pita,Pablo,Claudio
 
