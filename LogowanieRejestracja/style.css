@@ -1,0 +1,19 @@
+* {
+
+    background-color: gray;
+    
+}
+
+#Logowanie, #Rejestracja, #Zamowienie {
+
+    color: blue;
+    font-weight: bold;
+
+}
+
+#Zaloguj, #Zarejestruj, #Zamowienie {
+
+    font-size: 20px;
+    font-weight: bold;
+
+}

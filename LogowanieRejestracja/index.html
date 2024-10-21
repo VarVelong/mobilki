@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/x-icon" href="burger.png">
+    <title>WSBuła</title>
+</head>
+<body>
+
+    <h1>Testowe rzeczy do WSBuły ♥</h1>
+
+    <div id="Logowanie">
+        <h2>Logowanie</h2>
+        
+        <!-- Formularz przesyła dane do login.php -->
+        <form action="login.php" method="post">
+            <label for="login">E-mail lub Numer Telefonu:</label>
+            <input type="text" name="login" id="login" required><br>
+            
+            <label for="haslo">Hasło:</label>
+            <input type="password" name="haslo" id="haslo" required><br>
+            
+            <input type="submit" id="Zaloguj" value="Zaloguj">
+        </form>
+
+    </div>
+
+    <div id="Rejestracja">
+        <h2>Rejestracja</h2>
+        
+        <!-- Formularz przesyła dane do register.php -->
+        <form action="register.php" method="post">
+            <label for="imie">Imię:</label>
+            <input type="text" name="imie" id="imie" required><br>
+            
+            <label for="nazwisko">Nazwisko:</label>
+            <input type="text" name="nazwisko" id="nazwisko" required><br>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" id="email" required><br>
+            
+            <label for="numer_telefonu">Numer telefonu:</label>
+            <input type="text" name="numer_telefonu" id="numer_telefonu" pattern="\d{9,15}" title="Podaj poprawny numer telefonu" required><br>
+            
+            <label for="haslo">Hasło:</label>
+            <input type="password" name="haslo" id="haslo" required><br>
+            
+            <input type="submit" id="Zarejestruj" value="Utwórz Konto">
+        </form>
+
+    </div>
+
+</body>
+</html>
